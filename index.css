@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    background-color: black;
+}
+
+.nav-bar header nav ul{
+    display: flex;
+    padding: 0;
+    margin: 3% 10%;
+    justify-content: space-between;
+
+}
+.nav-bar header nav ul li{
+    list-style: none;
+    
+    text-decoration: none;
+}
+.nav-bar header nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+}
+.nav-bar header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Main container CSS*/
+.container{
+   margin-top: 15%;
+  
+}
+
+.container .main-container .sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 5%;
+}
+
+.container .main-container .sub-container .left{
+    margin: auto;
+}
+.container .main-container .sub-container .right{
+    background-color: #4b4a4a;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow:  0 5px 18px #1817179d, 0 5px 18px #e8feff5a;
+    margin: auto;
+}
+.container .main-container .sub-container .right form{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.container .main-container .sub-container .right form input{
+    width: 80%;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    box-shadow:  0 5px 18px #1817179d, 0 5px 18px #e8feff5a;
+}
+.container .main-container .sub-container .right form input::placeholder{
+    font-size: 80%;
+    text-align: center;
+}
+.container .main-container .sub-container .right form input:focus{
+    border: none;
+    outline: none;
+}
+.container .main-container .sub-container .right form label{
+    color: #ffff;
+    align-items: start;
+    padding: 1%;
+}
+.container .main-container .sub-container .right form p a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container .main-container .sub-container .right form p a:hover{
+    text-decoration: underline;
+}
+
+#join{
+    background-color: #00e8f4;
+    color: #1B262C;
+    width: 50%;
+    padding: 3%;
+}
